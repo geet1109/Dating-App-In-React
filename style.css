@@ -1,0 +1,80 @@
+header{
+    background-color: black;
+    color: white;
+}
+.top{
+    display: flex;
+}
+.left{
+    margin-left: 30px;
+}
+.heading{
+     width: 400px;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 600px;
+}
+button{
+    margin-left: 20px;
+    background-color: grey;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+}
+button a{
+    color: black;
+}
+section{
+    background-color: rgb(217, 213, 213);
+    padding: 10px
+}
+.mid{
+   padding: 10px;
+}
+.midsec{
+    background-color: lightcyan;
+    margin: auto;
+    width: 600px;
+}
+.head{
+    background-color: aqua;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    color: darkblue;
+    align-items: center;
+}
+select,textarea{
+    width: 90%;
+    padding: 10px;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+.submitbtn{
+    padding: 10px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: lightgray;
+    border: 3px solid rebeccapurple;
+}
+input[type=text],input[type=email],input[type=number],input[type=date],input[type=file]
+{
+    width: 90%;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
